@@ -68,6 +68,7 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <InterfaceDefinition Include="Resources\SplashScreen.storyboard" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -90,36 +91,75 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets.xcassets\Icone.appiconset\" />
-    <Folder Include="Assets.xcassets\Icone.appiconset\" />
     <Folder Include="Assets.xcassets\Logos.appiconset\" />
     <Folder Include="Assets.xcassets\Logos.imageset\" />
-    <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
-    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-20x20%402x.png" />
-    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-20x20%403x.png" />
-    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-29x29%402x.png" />
-    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-29x29%403x.png" />
-    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-40x40%402x.png" />
-    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-60x60%402x.png" />
-    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-60x60%402x-1.png" />
-    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-60x60%403x.png" />
-    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-20x20%401x.png" />
-    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-20x20%402x-1.png" />
-    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-29x29%401x.png" />
-    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-29x29%402x-1.png" />
-    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-20x20%402x-2.png" />
-    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-40x40%402x-1.png" />
-    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-76x76%401x.png" />
-    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-76x76%402x.png" />
-    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-83.5x83.5%402x.png" />
-    <ImageAsset Include="Assets.xcassets\Logos.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\Logos.imageset\logo%401x.png" />
-    <ImageAsset Include="Assets.xcassets\Logos.imageset\logo%402x.png" />
-    <ImageAsset Include="Assets.xcassets\Logos.imageset\logo%403x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <InterfaceDefinition Include="Resources\SplashScreen.storyboard" />
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-20x20%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-20x20%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-29x29%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-29x29%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-40x40%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-60x60%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-60x60%402x-1.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-60x60%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-20x20%401x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-20x20%402x-1.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-29x29%401x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-29x29%402x-1.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-20x20%402x-2.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-40x40%402x-1.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-76x76%401x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-76x76%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-83.5x83.5%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Logos.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Logos.imageset\logo%401x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Logos.imageset\logo%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Logos.imageset\logo%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
   </ItemGroup>
 </Project>
