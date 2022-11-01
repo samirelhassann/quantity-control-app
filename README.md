@@ -17,3 +17,4 @@ This is a project used for study purposes only • [Samir El Hassan](https://git
 ```bash
 dotnet build
 ```
+## Usage
